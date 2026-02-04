@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPfood — Доставка здорового питания</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-success" href="#">PPfood</a>
+        <a class="nav-link fw-bold text-dark num_telephome" href="tel:+78005553535" >8 (800) 555 35 35</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto text-center align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#features">Почему мы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#plans">Рационы</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+                
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                    <a class="nav-link d-flex align-items-center justify-content-center" href="#">
+                        <img src="sources/icons8-вход-40.png" alt="Вход" width="30" height="30">
+                        <span class="d-lg-none ms-2">Войти в профиль</span> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-success ms-lg-3 mt-2 mt-lg-0" href="#plans">Заказать</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero-section py-5 bg-light">
+        <div class="container text-center py-4">
+            <h1 class="display-5 fw-bold mb-3">Здоровое питание <br><span class="text-success">с доставкой до двери</span></h1>
+            <p class="lead text-muted mb-4">Сбалансированное меню на каждый день от 1200 ₽. Готовим сегодня — привозим завтра утром.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="#plans" class="btn btn-success btn-lg px-5 shadow">Выбрать рацион</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Наши направления</h2>
+        
+        <div class="row flex-nowrap overflow-auto pb-4 custom-scrollbar">
+            
+            <div class="col-10 col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-success text-white overflow-hidden">
+                    <img src="sources/паста гамзиэла.jpg" class="card-img-top card-half-img" alt="Паста Гамзиэла">
+                    
+                    <div class="card-body p-4 text-center d-flex flex-column justify-content-between">
+                        <div>
+                            <h3 class="fw-bold">LIVE</h3>
+                            <p class="small">Легкий старт для тех, кто хочет познакомиться с правильным питанием.</p>
+                            <hr class="bg-white">
+                            <ul class="list-unstyled mb-4 small text-start ps-3">
+                                <li>✓ 3-х разовое питание</li>
+                                <li>✓ Доставка через день</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-light w-100">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-warning text-dark overflow-hidden">
+                    
+                    <img src="sources/массанаборный чискейк.jpg" class="card-img-top card-half-img" alt="чискейк">
+
+                    <div class="card-body p-4 text-center d-flex flex-column justify-content-between">
+                        <div>
+                            <h3 class="fw-bold">HEALTH</h3>
+                            <p class="small">Максимальная польза: без сахара, лактозы и глютена.</p>
+                            <hr class="border-dark opacity-100"> <ul class="list-unstyled mb-4 small">
+                                <li>✓ 5-ти разовое питание</li>
+                                <li>✓ Детокс-смузи в подарок</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-dark w-100">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-4">
+                <div class="card h-100 border-0 shadow-sm bg-dark text-white overflow-hidden">
+                    
+                    <img src="sources/бульмени.jpg" class="card-img-top card-half-img" alt="пельмени">
+
+                    <div class="card-body p-4 text-center d-flex flex-column justify-content-between">
+                        <div>
+                            <h3 class="fw-bold">PERSONAL</h3>
+                            <p class="small text-light opacity-75">Индивидуальный план, составленный под ваши цели и анализы.</p>
+                            <hr class="border-secondary opacity-50">
+                            <ul class="list-unstyled mb-4 small text-start ps-3">
+                                <li>✓ Меню от шеф-повара</li>
+                                <li>✓ Поддержка нутрициолога</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-success w-100 shadow-sm">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="features" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Наши преимущества</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="p-3">
+                        <div> <img src="sources/sheet_mob.png" alt=""></div>
+                        <h5 class="fw-bold">Свежие продукты</h5>
+                        <p class="text-muted small">Закупаем овощи и мясо у проверенных фермеров каждое утро.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-3">
+                        <div> <img src="sources/icons8-весы-100.png" alt=""></div>
+                        <h5 class="fw-bold">Точный КБЖУ</h5>
+                        <p class="text-muted small">Каждое блюдо взвешено и рассчитано профессиональным диетологом.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-3">
+                        <div> <img src="sources/big_car_mob.png" alt=""></div>
+                        <h5 class="fw-bold">Доставка к завтраку</h5>
+                        <p class="text-muted small">Курьер приедет в удобный интервал с 6:00 до 11:00 утра.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Выберите свой план питания</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Снижение веса</h5>
+                            <p class="text-success fw-bold">1200 ккал / 5 приемов</p>
+                            <hr>
+                            <p class="small text-muted mb-4">Оптимально для тех, кто хочет плавно и безопасно похудеть без чувства голода.</p>
+                            <h4 class="mb-3">1 200 ₽ <span class="fs-6 text-muted fw-normal">/ день</span></h4>
+                            <button class="btn btn-outline-success w-100">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-success shadow-sm position-relative">
+                        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success px-3">ХИТ</span>
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Баланс</h5>
+                            <p class="text-success fw-bold">1800 ккал / 6 приемов</p>
+                            <hr>
+                            <p class="small text-muted mb-4">Для поддержания формы и активного образа жизни. Энергия на весь день.</p>
+                            <h4 class="mb-3 text-success">1 500 ₽ <span class="fs-6 text-muted fw-normal">/ день</span></h4>
+                            <button class="btn btn-outline-success w-100">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Набор массы</h5>
+                            <p class="text-success fw-bold">2500 ккал / 6 приемов</p>
+                            <hr>
+                            <p class="small text-muted mb-4">Повышенное содержание белка и медленных углеводов для роста мышц.</p>
+                            <h4 class="mb-3">1 900 ₽ <span class="fs-6 text-muted fw-normal">/ день</span></h4>
+                            <button class="btn btn-outline-success w-100">Выбрать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Нас рекомендуют</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="p-4 bg-white border rounded shadow-sm italic">
+                        <p class="mb-3 fs-5 font-italic">"Забыл о готовке и походах в магазин. Продукты здесь самые качественные, мой сыр из гнилого подвала, конечно, вкусный, но не настолько как эти явства!"</p>
+                        <h6 class="fw-bold mb-0">Герман Стерлингов</h6>
+                        <small class="text-muted">Начальник слободы, клиент 42 месяца</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container-fluid px-4"> <div class="d-flex flex-column flex-md-row justify-content-between align-items-start gap-1">
+                
+                <div class="footer-col-menu">
+                    <ul class="list-unstyled footer-links mb-0">
+                        <li><a href="#plans" class="footer-item-link">Life</a></li>
+                        <li><a href="#plans" class="footer-item-link">Health</a></li>
+                        <li><a href="#plans" class="footer-item-link">Personal</a></li>
+                        <li><a href="#catalog" class="footer-item-link">Каталог</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col-menu">
+                    <ul class="list-unstyled footer-links mb-0">
+                        <li><a href="#" class="footer-item-link">Прайс</a></li>
+                        <li><a href="#" class="footer-item-link">Доставка и оплата</a></li>
+                        <li><a href="#" class="footer-item-link">Частые вопросы</a></li>
+                        <li><a href="#" class="footer-item-link">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-menu">
+                    <ul class="list-unstyled footer-links mb-0">
+                        <li><a href="#" class="footer-item-link">О компании</a></li>
+                        <li><a href="#" class="footer-item-link">Документы</a></li>
+                    </ul>
+                </div>
+                
+
+
+                <div class="padding_top">
+                    <div class="footer-col-info text-md-center mt-auto">
+                        <p class="mb-2 small text-secondary">© 2024 PPfood Delivery. Все права защищены.</p>
+                        <div class="d-flex gap-1 justify-content-md-center flex-column">
+                            <a href="#" class="text-secondary text-decoration-none small">Политика</a>
+                            <a href="#" class="text-secondary text-center small">Оферта</a>
+                            <a href="mailto:info@ppfood.ru" class="text-success text-decoration-none d-block mb-3">info@ppfood.ru</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col-socials text-md-end">
+                        <div class="d-flex gap-2 justify-content-md-center">
+                            <a href="#" class="social-link"><img src="sources/max-messenger-sign-logo.png" alt="msg" width="30"></a>
+                            <a href="#" class="social-link"><img src="sources/max-messenger-sign-logo.png" alt="msg" width="30"></a>
+                            <a href="#" class="social-link"><img src="sources/max-messenger-sign-logo.png" alt="msg" width="30"></a>
+                            <a href="#" class="social-link"><img src="sources/max-messenger-sign-logo.png" alt="msg" width="30"></a>
+                            <a href="#" class="social-link"><img src="sources/max-messenger-sign-logo.png" alt="msg" width="30"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+        </div>
+    </footer>
+
+    <button id="backToTop" class="btn btn-success shadow" title="Наверх">
+        <img src="sources/icons8-вверх-в-квадрате-64.png" alt="" class="scroll_icon">
+    </button>
+    <script>
+        const backToTopBtn = document.getElementById("backToTop");
+
+        // Показываем кнопку при скролле вниз на 300px
+        window.onscroll = function() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+        // Плавный скролл вверх при клике
+        backToTopBtn.onclick = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
